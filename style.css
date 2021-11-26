@@ -1,5 +1,20 @@
 * {
-  margin: 0;
   padding: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 700px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-container {
+  width: 60%;
+  margin: auto;
+}
+
+.carousel-slide {
+  display: flex;
 }
